@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="design.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="h1">Calculator</h1>
+        <input type="text" id="input_form" placeholder="Counter_Value">
+        <h1 class="countNo"></h1>
+        <h1 class="wrong"></h1>
+
+
+        <div class="row">
+            <button class="sameWidth" onclick="add()">+</button>
+            <button class="sameWidth" onclick="minus()">-</button>
+        </div>
+        <div class="row">
+            <button class="sameWidth" onclick="divide()">/</button>
+            <button class="sameWidth" onclick="multi()">*</button>
+        </div>
+            <button id="widthbtn" onclick="clean()">C</button>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

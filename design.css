@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(142, 98, 98);
+}
+.container{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(10, 73, 52);
+    height: 450px;
+    border: 3px solid black;
+    margin: 20px 0px 0px 300px;
+    border-radius: 10px;
+
+}
+input{
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+    border: 2px solid black;
+    text-align: center;
+}
+.sameWidth{
+    width: 100px;
+    height: 40px;
+    display: block;
+    font-weight:bold;
+    margin: 10px;
+    background-color: blue;
+    border: 2px solid black;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+.sameWidth:hover{
+    background-color: #d81b1b;
+}
+.sameWidth:active{
+    background-color: yellow;
+    color: black;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+}
+#widthbtn{
+    width: 230px;
+    /* margin: auto; */
+    /* display: block; */
+    height: 50px;
+    margin-left: 135px;
+    background-color: rgb(174, 76, 76);
+    color: aliceblue;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 2px solid black;
+    margin-bottom: 50px;
+}
+#widthbtn:hover{
+    background-color: #d81b1b;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.h1{
+    margin: 10px;
+}
